@@ -16,7 +16,7 @@ RUN mkdir -p /pb_data
 
 # download and unzip PocketBase
 ADD https://github.com/pocketbase/pocketbase/releases/download/v${PB_VERSION}/pocketbase_${PB_VERSION}_linux_amd64.zip /tmp/pb.zip
-RUN unzip /tmp/pb.zip -d /pb/
+RUN unzip /tmp/pb.zip -d /usr/local/bin
 RUN chmod +x /usr/local/bin/pocketbase
 
 
