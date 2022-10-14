@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+# set -e
 
 # Restore the database if it does not already exist.
 if [ -f /pb_data/data.db ]; then
